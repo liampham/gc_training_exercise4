@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Wijmo Input Demo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="container">
+
+        <h1>
+          Input Dates and Times
+        </h1>
+      
+        <p>
+          Javascript Date objects contain date and time information.</p>
+        <p>
+          Because in many cases only the date or time are relevant to
+          the application, Wijmo offers separate controls for editing
+          dates, times, or both.</p>
+        <p>
+          The <b>InputDate</b> and <b>InputTime</b> controls can be 
+          used separately or together, to edit the date and time
+          information in a Javascript <b>Date</b> object.</p>
+        <label for="theInputDateOnly">InputDate: </label>
+        <input id="theInputDateOnly">
+        <br>
+        <label for="theInputTimeOnly">InputTime: </label>
+        <input id="theInputTimeOnly">
+      
+        <p>
+          If you prefer to edit the date and time parts of a <b>Date</b>
+          object using a single control, use the <b>InputDateTime</b>:</p>
+        <label for="theInputDateTime">InputDateTime: </label>
+        <input id="theInputDateTime">
+        
+        <p>
+          The current date/time is: <b><span id="dateTime"></span></b>.
+        </p>
+      </div>
+</ion-content>

@@ -1,0 +1,18 @@
+.wj-flexgrid {
+    max-height: 350px;
+}
+.wj-flexgrid .wj-cells .wj-cell,
+.wj-flexgrid .wj-colheaders .wj-cell {
+    border-right: none;
+}
+.wj-flexgrid .wj-cell .wj-btn.wj-btn-glyph {
+    opacity: .5;
+}
+.wj-flexgrid.animated .wj-marquee,
+.wj-flexgrid.animated .wj-colheaders .wj-header {
+    transition: all .3s;
+    transition-timing-function: cubic-bezier(.5,0,.5,1)
+}
+  
+ 
+  
